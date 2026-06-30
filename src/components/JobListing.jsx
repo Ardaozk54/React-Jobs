@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 function JobListing({job}) {
 
   const [showFullDescription,setShowFullDescription]=useState(false);
-
+ 
 
   let description = job.description;
 
